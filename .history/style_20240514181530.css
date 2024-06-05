@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins";
+}
+body{
+    background: radial-gradient(50% 50% at 50% 50%, #0F2B63 0%, rgba(24, 69, 163, 0) 100%);
+
+}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}

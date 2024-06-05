@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins";
+}
+body{
+    background-color: rgb(47, 44, 47);
+}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-top: 30px;
+    margin-left: 60px;
+}
+.logoText{
+    font-size: 20px;
+    color: #fff;
+    m
+}
+.logo ul{
+    display: flex;
+    color: #dedcdc;
+    list-style: none;
+    gap: 70px;
+}

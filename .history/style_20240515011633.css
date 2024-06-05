@@ -1,0 +1,634 @@
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins";
+    }
+body{
+    background-color: rgb(9, 9, 24);
+    scroll-behavior: smooth;
+}
+/* NavBar */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-top: 30px;
+    margin-left: 120px;
+    margin-bottom: 150px;
+    cursor: pointer;
+}
+.logoText{
+    font-size: 20px;
+    color: #fff;
+    margin-right: 520px;
+    font-weight: 600;
+}
+.logo ul{
+    display: flex;
+    color: #dedcdc;
+    list-style: none;
+    gap: 80px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+    .logo ul li {
+        list-style: none;
+        display: inline-block;
+        /* padding: 8px 12px; */
+        position: relative;
+    }
+    .logo ul li::after {
+        content: "";
+        width: 0%;
+        height: 2px;
+        background: #fff;
+        display: block;
+        margin: auto;
+        transition: 0.5s;
+    }
+    .logo ul li:hover::after {
+        width: 70%;
+    }
+
+.sign{
+    width: 146px;
+    height: 50px;
+    border: 1px solid #fff;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+}
+/* Landing Page */
+.liveText{
+    display: flex;
+    flex-direction: column;
+    font-size: 55px;
+    width: 340px;
+    line-height: 57px;
+    color: #fff;
+    margin-left: 120px;
+    font-weight: normal;
+    margin-bottom: 50px;
+}
+.shadow{
+    width: 25%;
+    position: absolute;
+    top: 20px;
+    left: 150px;
+    z-index: -1;
+}
+.lorem{
+    color: #d6d5d54a;
+    width: 27%;
+    margin-left: 120px;
+    line-height: 27px;
+    margin-bottom: 50px;
+}
+.explore{
+    margin-left: 120px;
+    width: 148px;
+    height: 50px;
+    background: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+}
+.arrow{
+    position: absolute;
+    top: 120px;
+    left: 320px;
+}
+.rArrow{
+    position: absolute;
+    font-size: 30px;
+    top: 585px;
+    left: 350px;
+    margin-right: 200px;
+    color: #d6d5d54a;
+    display: flex;
+    align-items: center;
+}
+.lArrow{
+    position: absolute;
+    font-size: 30px;
+    top: 585px;
+    left: 500px;
+    color: #d6d5d54a;
+    display: flex;
+    align-items: center;
+}
+.innerP{
+    position: absolute;
+    left: 392px;
+    top: 590px;
+    color: #ffffffa4;
+    font-size: 30px;
+}
+.theBrownNumber{
+    color: #d6d5d54a;
+}
+/* Wooden Hand Image */
+.handDiv{
+    display: flex;
+    position: absolute;
+    top: 190px;
+    right: 150px;
+}
+.hand{
+    height: 75vh;
+    width: 100%;
+    z-index: 999;
+}
+.wood{
+    position: absolute;
+    right: 210px;
+    top: -60px;
+    width: 45%;
+}
+.five{
+    position: absolute;
+    right: 20px;
+    bottom: 150px;
+    animation: float 5s reverse linear infinite;
+}
+@keyframes float {
+    0%{
+        transform: scale(0.5);
+        right: 40px;
+    }
+    100%{
+        right: -20px;
+        transform: scale(0);
+    }
+}
+.six{
+    position: absolute;
+    right: 480px;
+    top: 285px;
+    animation: float1 reverse linear infinite 5s;
+}
+@keyframes float1 {
+    20%{
+        transform: scale(1);
+        right: 478px;
+    }
+    100%{
+        right: 600px;
+        transform: scale(0.2);
+    }
+}
+.eight{
+    position: absolute;
+    right: 180px;
+    top: -30px;
+    animation: float2 both linear infinite 5s;
+}
+@keyframes float2 {
+    0%{
+        transform: scale(0.2);
+        top: 75px;
+    }   
+    100%{
+        transform: scale(1);
+        top: -30px;
+
+    }
+}
+
+/* Stripe of Company Logos */
+.stripe{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 120px;
+    padding-right: 146px;
+    background-color: rgb(3, 3, 56);
+    position: absolute;
+    bottom: -85px;
+}
+.images{
+    display: flex;
+    gap: 95px;
+    align-items: center;
+}
+
+/* Automated Page */
+.autoGen{
+    display: flex;
+    position: absolute;
+    bottom: -400px;
+}
+.autoText{
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 20px;
+    margin-left: 250px;
+}
+.lorem1{    
+    text-align: center;
+    margin-left: 250px;
+    color: #d6d5d54a;
+    margin-bottom: 50px;
+}
+    .mother{
+        display: flex;
+        margin-left: 120px;
+        gap: 500px;
+        align-items: center;
+        margin-bottom: 100px;
+    }
+    .child1{
+        display: flex;
+        border: 1px solid purple;
+        position: absolute;
+        top: 200px;
+        padding: 170px 150px;
+        width: 30%;
+        border-radius: 10px;
+    }
+    .child2{
+        display: flex;
+        border: 1px solid purple;
+        position: absolute;
+        top: 200px;
+        left: 620px;
+        padding: 170px 150px;
+        width: 30%;
+        border-radius: 10px;
+    }
+    .child3{
+        display: flex;
+        border: 1px solid purple;
+        position: absolute;
+        top: 200px;
+        left: 1100px;
+        padding: 170px 150px;
+        width: 30%;
+        border-radius: 10px;
+    }
+    .mask{
+        position: absolute;
+        top: 30px;
+    }
+    .mask1{
+        position: absolute;
+        top: 30px;
+    }
+    .mask2{
+        position: absolute;
+        top: 30px;
+    }
+.one{
+    position: absolute;
+    color: #b3b2b2;
+    font-size: 20px;
+    top: 30px;
+    left: 20px;
+}
+.two{
+    position: absolute;
+    color: #b3b2b2;
+    font-size: 20px;
+    top: 30px;
+    left: 30px;
+}
+.last{
+    position: absolute;
+    color: #b3b2b2;
+    font-size: 20px;
+    top: 30px;
+    left: 30px;
+}
+.connect1{
+    position: absolute;
+    color: #fff;
+    top: 130px;
+    left: 60px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.connect2{
+    position: absolute;
+    color: #fff;
+    top: 130px;
+    left: 60px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.connect3{
+    position: absolute;
+    color: #fff;
+    top: 130px;
+    left: 60px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.loremm{
+    display: flex;
+    width: 30%;
+    font-size: 16px;
+    position: absolute;
+    top: 450px;
+    color: #b3b2b2;
+    text-align: center;
+    line-height: 20px;
+}
+.loremm1{
+    display: flex;
+    width: 30%;
+    font-size: 16px;
+    position: absolute;
+    top: 450px;
+    color: #b3b2b2;
+    left: 620px;
+    text-align: center;
+    line-height: 20px;
+}
+.loremm2{
+    display: flex;
+    width: 30%;
+    font-size: 16px;
+    position: absolute;
+    top: 450px;
+    left: 1100px;
+    color: #b3b2b2;
+    text-align: center;
+    line-height: 20px;
+}
+
+/* Wavy Lines Iphone */
+.wavyGen{
+    display: flex;
+    position: absolute;
+    bottom: -1400px;
+    margin-left: 120px;
+
+    gap: 550px;
+}
+#shadow{
+    position: absolute;
+    left: 0px;
+    z-index: -1;
+    top: -400px;
+}
+.purp{
+    color: purple;
+}
+.premium{
+    font-size: 40px;
+    color: #fff;
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+.budget{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.budget span{
+    color: #b3b2b2;
+}
+.budg{
+    width: 5%;
+}
+.loremAg{
+    color: #ffffff33;
+    margin-bottom: 20px;
+}
+.invitationGen{
+    display: flex;
+    position: absolute;
+    bottom: -2000px;
+}
+.inviteText{
+    margin-left: 120px;
+    color: #fff;
+}
+.invite{
+    font-size: 50px;
+    font-weight: 200;
+    margin-bottom: 30px;
+}
+
+.lorem11{
+    color: #d6d5d54a;
+    width: 47%;
+    line-height: 27px;
+    margin-bottom: 50px;
+}
+.explore1{
+    width: 148px;
+    height: 50px;
+    background: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+}
+.whiteGroup{
+    display: flex;
+    position: absolute;
+    top: -50px;
+    right: -350px;
+}
+
+/* User-Centric */
+.userCentricGen{
+    position: absolute;
+    bottom: -2400px;
+}
+.userCentricText{
+    display: flex;
+    flex-direction: column;
+    margin-left: 450px;
+    text-align: center;
+}
+.centric{
+    color: #fff;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.smallLorem{
+    color: #b3b2b2;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.mum{
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows: repeat(2, 250px);
+    position: absolute;
+    bottom: -3000px;
+    margin-left: 380px;
+    /* gap: 100px; */
+}
+.children1{
+    display: grid;
+    border-right: 1px solid purple;
+    border-bottom: 1px solid purple;
+
+}
+.children2{
+    display: grid;
+    border-right: 1px solid purple;
+    border-bottom: 1px solid purple;}
+.children3{
+    display: grid;
+    border-bottom: 1px solid purple;
+}
+.children4{
+    display: grid;
+    border-right: 1px solid purple;
+}
+.children5{
+    display: grid;
+    border-right: 1px solid purple;
+}
+.children6{
+    display: grid;
+}
+.head{
+    position: absolute;
+    top: 30px;
+    left: 120px;
+}
+.chart{
+    position: absolute;
+    top: 30px;
+    left: 420px;
+}
+.board{
+    position: absolute;
+    top: 30px;
+    left: 720px;
+}
+.archive{
+    position: absolute;
+    top: 310px;
+    left: 120px;
+}
+.fav{
+    position: absolute;
+    top: 310px;
+    left: 420px;
+}
+.result{
+    position: absolute;
+    top: 310px;
+    left: 720px;
+}
+.non{
+    position: absolute;
+    bottom: -4000px;
+}
+.sup1{
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    top: 90px;
+    left: 100px;
+}
+.sup2{
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    top: 90px;
+    left: 410px;
+}
+.sup3{
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    top: 90px;
+    left: 680px;
+}
+.sup4{
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    top: 370px;
+    left: 100px;
+}
+.sup5{
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    top: 370px;
+    left: 400px;
+}
+.sup6{
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    top: 370px;
+    left: 710px;
+}
+.lorem110{
+    color: #d6d5d54a;
+    line-height: 20px;
+    position: absolute;
+    top: 130px;
+    left: 10px;
+    text-align: center;
+    width: 30%;
+}
+.lorem119{
+    color: #d6d5d54a;
+    line-height: 20px;
+    position: absolute;
+    top: 130px;
+    left: 300px;
+    text-align: center;
+    width: 30%;
+}
+.lorem118{
+    color: #d6d5d54a;
+    line-height: 20px;
+    position: absolute;
+    top: 130px;
+    left: 620px;
+    text-align: center;
+    width: 30%;
+}
+.lorem117{
+    color: #d6d5d54a;
+    line-height: 20px;
+    position: absolute;
+    top: 400px;
+    left: 10px;
+    text-align: center;
+    width: 30%;
+}
+.lorem116{
+    color: #d6d5d54a;
+    line-height: 20px;
+    position: absolute;
+    top: 400px;
+    left: 300px;
+    text-align: center;
+    width: 30%;
+}
+.lorem111{
+    color: #d6d5d54a;
+    line-height: 20px;
+    position: absolute;
+    top: 400px;
+    left: 630px;
+    width: 30%;
+    text-align: center;
+}
+
+/* Term Forecast */
+
+.generalDiv{
+    position: absolute;
+    bottom: -4400px;
+}
+.howText{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 700px;
+    right: -900px;
+}
+}

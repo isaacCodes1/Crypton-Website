@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins";
+}
+body{
+    border: 1px solid rgba(255, 255, 255, 1)
+}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}

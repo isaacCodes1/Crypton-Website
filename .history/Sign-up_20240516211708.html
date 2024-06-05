@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Form Validation with JavaScript</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+        rel="stylesheet"
+        />
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+            <header>
+                <nav>
+                <div class="headerGen">
+                    <div class="logo">
+                    <a style="text-decoration: none;" href="index.html"><img class="logoImage" src="/Assets/Group 605.png" alt="" /></a>
+                    <p class="logoText">Crypton</p>
+                    <ul>
+                        <li>Home</li>
+                        <li style="color: #d6d5d54a">About</li>
+                        <li style="color: #d6d5d54a">Services</li>
+                        <li style="color: #d6d5d54a">Events</li>
+                        <a style="text-decoration: none;" href="Sign-up.html"><button class="sign">Sign Up</button></a>
+                    </ul>
+                    </div>
+                </div>
+                </nav>
+            </header>
+        <div class="container">
+            <img id="i12" src="/Assets/iPhone 12 Pro (Wooden Hands).png" alt="">
+        <form id="form">
+            <h1>Form Validation.</h1>
+            <div class="input-control">
+            <label for="username">Username</label>
+            <input id="username" name="username" type="text" />
+            <div class="error"></div>
+            </div>
+            <div class="input-control">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="text" />
+            <div class="error"></div>
+            </div>
+            <div class="input-control">
+            <label for="password">Password</label>
+            <input id="password" name="password" type="password" />
+            <div class="error"></div>
+            </div>
+            <div class="input-control">
+            <label for="password2">Password again</label>
+            <input id="password2" name="password2" type="password" />
+            <div class="error"></div>
+            </div>
+            <button id="inn" type="submit"><a style="text-decoration: none;" href="index.html"><p>Sign In</p></a></button>
+        </form>
+        </div>
+        <script src="script.js  "></script>
+    </body>
+    </html>
